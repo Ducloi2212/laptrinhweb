@@ -1,3 +1,21 @@
+# Laravel 
+.env
+.env.* 
+/vendor/
+/node_modules/
+/storage/
+bootstrap/cache/
+
+# IDE & hệ thống
+.vscode/
+.idea/
+.DS_Store
+thumbs.db
+
+# Log files
+*.log
+
+
 # Build and Release Folders
 bin-debug/
 bin-release/
@@ -13,6 +31,6 @@ bin-release/
 *.ipa
 *.apk
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# Project files, i.e. .project, .actionScriptProperties and .flexProperties
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
